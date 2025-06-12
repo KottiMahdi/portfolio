@@ -1756,6 +1756,112 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+/*-----------------------------------*\
+  #RESUME DOWNLOAD
+\*-----------------------------------*/
+
+.resume-download {
+    margin-top: 40px;
+    padding: 25px;
+    background: var(--border-gradient-onyx);
+    border-radius: 16px;
+    box-shadow: var(--shadow-3);
+    position: relative;
+    z-index: 1;
+}
+
+.resume-download::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: var(--bg-gradient-jet);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.download-title {
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.download-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--text-gradient-yellow);
+    border-radius: 3px;
+}
+
+.download-content p {
+    color: var(--light-gray);
+    font-size: var(--fs-5);
+    line-height: 1.7;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.download-button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.download-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 28px;
+    background: var(--border-gradient-onyx);
+    border-radius: 14px;
+    color: var(--orange-yellow-crayola);
+    font-weight: var(--fw-600);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: var(--shadow-4);
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+
+.download-button::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: var(--bg-gradient-jet);
+    border-radius: inherit;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.download-button svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.download-button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-5);
+}
+
+.download-button:hover::before {
+    background: var(--bg-gradient-yellow-2);
+}
+
+.download-button:hover svg {
+    transform: translateY(3px);
+    animation: downloadArrow 0.8s infinite;
+}
+
+@keyframes downloadArrow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+}
 
 /*-----------------------------------*\
   #LANGUAGES
