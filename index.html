@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mahdi Kotti | Portfolio</title>
+
+		<!--
+    - favicon
+  -->
+		<link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon" />
+
+		<!--
+    - custom css link
+  -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<!--
+    - google font link
+  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--
+    - #MAIN
+  -->
+
+		<main>
+			<!--
+      - #SIDEBAR
+    -->
+
+			<aside class="sidebar" data-sidebar>
+				<div class="sidebar-info">
+					<figure class="avatar-box">
+						<img src="./assets/images/my-avatar.png" alt="Mahdi Kotti" width="80" />
+					</figure>
+
+					<div class="info-content">
+						<h1 class="name" title="Richard hanrick">Mahdi Kotti</h1>
+
+						<p class="title">Junior Flutter Developer</p>
+					</div>
+
+					<button class="info_more-btn" data-sidebar-btn>
+						<span>Show Contacts</span>
+
+						<ion-icon name="chevron-down"></ion-icon>
+					</button>
+				</div>
+
+				<div class="sidebar-info_more">
+					<div class="separator"></div>
+
+					<ul class="contacts-list">
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="mail-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Email</p>
+
+								<a href="mailto:kottimahdi22@gmail.com" class="contact-link">kottimahdi22@gmail.com</a>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="phone-portrait-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Phone</p>
+
+								<a href="tel:+12133522795" class="contact-link">+216 56340595</a>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="calendar-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Birthday</p>
+
+								<time datetime="1982-06-23">August 13, 1998</time>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="location-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Location</p>
+
+								<address>Tunis, Tunisia</address>
+							</div>
+						</li>
+					</ul>
+
+					<div class="separator"></div>
+
+					<ul class="social-list">
+						<li class="social-item">
+							<a href="https://www.linkedin.com/in/mahdi-kotti-13b780355/" target="_blank" class="social-link">
+								<ion-icon name="logo-linkedin"></ion-icon>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="https://github.com/KottiMahdi" class="social-link" target="_blank">
+								<ion-icon name="logo-github"></ion-icon>
+							</a>
+						</li>
+						<li class="social-item">
+							<a href="mailto:kottimahdi22@gmail.com" target="_blank" class="social-link">
+								<ion-icon name="mail-outline"></ion-icon>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<!--
+      - #main-content
+    -->
+
+			<div class="main-content">
+				<!--
+        - #NAVBAR
+      -->
+
+				<nav class="navbar">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<button class="navbar-link active" data-nav-link>About</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Resume</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Portfolio</button>
+						</li>
+
+						<!-- <li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Blog</button>
+						</li> -->
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Contact</button>
+						</li>
+					</ul>
+				</nav>
+
+				<!--
+        - #ABOUT
+      -->
+
+				<article class="about active" data-page="about">
+					<header>
+						<h2 class="h2 article-title">About me</h2>
+					</header>
+
+					<section class="about-text">
+						<!-- <p>
+							I hold a bachelor's degree in Computer Science, with hands-on experience in web and mobile development
+							using Dart, Flutter, Firebase, C#, ASP.NET, JavaScript, and SQL Server. Having successfully completed
+							multiple internships and real-world projects, I am passionate about innovation, problem-solving, and
+							continuous learning
+						</p> -->
+						<p>
+							Enthusiastic mobile application developer with a bachelor's degree, specializing in Flutter and Dart.
+							Passionate about leveraging my skills to create innovative mobile solutions, I'm eager to embark on my
+							first professional journey in the tech industry.
+						</p>
+						<p>
+							My role is to develop mobile applications that are not only functional and user-friendly but also visually
+							appealing.
+						</p>
+					</section>
+
+					<!--
+          - service
+        -->
+
+					<section class="service">
+						<h3 class="h3 service-title">What i'm doing</h3>
+
+						<ul class="service-list">
+							<!-- <li class="service-item">
+								<div class="service-icon-box">
+									<img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Web development</h4>
+
+									<p class="service-item-text">High-quality development of sites at the professional level.</p>
+								</div>
+							</li> -->
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Mobile apps</h4>
+
+									<p class="service-item-text">Professional development of Flutter applications.</p>
+								</div>
+							</li>
+						</ul>
+					</section>
+
+					<!--
+          - testimonials
+        -->
+
+					<!-- <section class="testimonials">
+						<h3 class="h3 testimonials-title">Testimonials</h3>
+
+						<ul class="testimonials-list has-scrollbar">
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+									</figure>
+
+									<h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Richard was hired to create a corporate identity. We were very pleased with the work done. She has
+											a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+											ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels
+											dolore magnarels alia.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar />
+									</figure>
+
+									<h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Richard was hired to create a corporate identity. We were very pleased with the work done. She has
+											a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+											ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels
+											dolore magnarels alia.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar />
+									</figure>
+
+									<h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Richard was hired to create a corporate identity. We were very pleased with the work done. She has
+											a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+											ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels
+											dolore magnarels alia.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar />
+									</figure>
+
+									<h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Richard was hired to create a corporate identity. We were very pleased with the work done. She has
+											a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+											ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels
+											dolore magnarels alia.
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</section> -->
+
+					<!--
+          - testimonials modal
+        -->
+
+					<div class="modal-container" data-modal-container>
+						<div class="overlay" data-overlay></div>
+
+						<section class="testimonials-modal">
+							<button class="modal-close-btn" data-modal-close-btn>
+								<ion-icon name="close-outline"></ion-icon>
+							</button>
+
+							<div class="modal-img-wrapper">
+								<figure class="modal-avatar-box">
+									<img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+								</figure>
+
+								<img src="./assets/images/icon-quote.svg" alt="quote icon" />
+							</div>
+
+							<div class="modal-content">
+								<h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+								<time datetime="2021-06-14">14 June, 2021</time>
+
+								<div data-modal-text>
+									<p>
+										Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+										lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+										ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels
+										dolore magnarels alia.
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<!--
+          - clients
+        -->
+
+					<!-- Replace the existing clients section with this code -->
+					<section class="languages">
+						<h3 class="h3 languages-title">Languages</h3>
+
+						<div class="languages-container">
+							<div class="language-card">
+								<div class="language-icon">
+									<img
+										src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjRkZDNzQwIiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMm0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48cGF0aCBmaWxsPSIjRkZDNzQwIiBkPSJNMTIgNmMtMy4zMSAwLTYgMi42OS02IDZzMi42OSA2IDYgNiA2LTIuNjkgNi02LTIuNjktNi02LTZtMCAxMGMtMi4yMSAwLTQtMS43OS00LTRzMS43OS00IDQtNCA0IDEuNzkgNCA0LTEuNzkgNC00IDR6Ii8+PC9zdmc+"
+										alt="Language"
+									/>
+								</div>
+								<div class="language-content">
+									<h4 class="h4">Arabic</h4>
+									<p>Native</p>
+									<div class="progress-bar">
+										<div class="progress-fill" style="width: 100%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="language-card">
+								<div class="language-icon">
+									<img
+										src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjRkZDNzQwIiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMm0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48cGF0aCBmaWxsPSIjRkZDNzQwIiBkPSJNMTIgNmMtMy4zMSAwLTYgMi42OS02IDZzMi42OSA2IDYgNiA2LTIuNjkgNi02LTIuNjktNi02LTZtMCAxMGMtMi4yMSAwLTQtMS43OS00LTRzMS43OS00IDQtNCA0IDEuNzkgNCA0LTEuNzkgNC00IDR6Ii8+PC9zdmc+"
+										alt="Language"
+									/>
+								</div>
+								<div class="language-content">
+									<h4 class="h4">English</h4>
+									<p>B1 (Intermediate)</p>
+									<div class="progress-bar">
+										<div class="progress-fill" style="width: 70%"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="language-card">
+								<div class="language-icon">
+									<img
+										src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjRkZDNzQwIiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMm0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48cGF0aCBmaWxsPSIjRkZDNzQwIiBkPSJNMTIgNmMtMy4zMSAwLTYgMi42OS02IDZzMi42OSA2IDYgNiA2LTIuNjkgNi02LTIuNjktNi02LTZtMCAxMGMtMi4yMSAwLTQtMS43OS00LTRzMS43OS00IDQtNCA0IDEuNzkgNCA0LTEuNzkgNC00IDR6Ii8+PC9zdmc+"
+										alt="Language"
+									/>
+								</div>
+								<div class="language-content">
+									<h4 class="h4">French</h4>
+									<p>A2 (Elementary)</p>
+									<div class="progress-bar">
+										<div class="progress-fill" style="width: 40%"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</article>
+
+				<!--
+        - #RESUME
+      -->
+
+				<article class="resume" data-page="resume">
+					<header>
+						<h2 class="h2 article-title">Resume</h2>
+					</header>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Education</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">BTP in IT management.</h4>
+
+								<span>2019 — 2021</span>
+
+								<p class="timeline-text">IMSET - Institut Maghrébin des Sciences Économiques et Technologiques</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">BTS in IT solution developer designer.</h4>
+
+								<span>2021 — 2023</span>
+
+								<p class="timeline-text">
+									IMSET - "Institut Maghrébin des Sciences Économiques et Technologiques" has a partnership with CNAM -
+									"Conservatoire national des arts et métiers" in France.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Bachelor's degree in Computer Science.</h4>
+
+								<span>2023 — 2024</span>
+
+								<p class="timeline-text">
+									IMSET - "Institut Maghrébin des Sciences Économiques et Technologiques" has a partnership with CNAM -
+									"Conservatoire national des arts et métiers" in France.
+								</p>
+							</li>
+						</ol>
+					</section>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Experience</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Internship at Software intelligence company "SOFTIC "</h4>
+
+								<span>2021 | 2 Months</span>
+
+								<p class="timeline-text">
+									Concept and development employee managemen web application
+									<span style="color: gainsboro"
+										>• Web application provides administration to store, and manage employees.</span
+									>
+									Technologies: ASP.NET, C#, SQL Serveur, DevExpress, Javascript
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Internship at Software intelligence company "SOFTIC "</h4>
+
+								<span>2022 | 2 Months</span>
+
+								<p class="timeline-text">
+									Concept and development contact management web application(PFE),
+									<span style="color: gainsboro"
+										>• The web application offers an administrative platform for storing and managing company contacts
+										and events</span
+									>
+									Technologies: ASP.NET, C#, SQL Serveur, DevExpress, Javascript
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Internship at Bee Coders center</h4>
+
+								<span>2023 | 2 Months</span>
+
+								<p class="timeline-text">
+									Concept and development mobile application notes management(PFE)
+									<span style="color: gainsboro"
+										>• Mobile application provides users to store, and manage their notes.</span
+									>
+									Technologies: Dart, Flutter, Firebase
+								</p>
+							</li>
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Internship at Software intelligence company "SOFTIC "</h4>
+
+								<span>2024 - 2025 | 8 Months</span>
+
+								<p class="timeline-text">
+									<span style="color: gainsboro"
+										>Concept and development of a medical management mobile application
+										<span style="color: gainsboro">• Patient management module :</span>
+										Add/edit and delete patients with search functionality.
+										<span style="color: gainsboro">• History system (medical history) :</span>
+										Structured entry for chronic diseases, surgeries and family history.
+										<span style="color: gainsboro">• Automate appointment :</span>
+										scheduling: Create, edit and view appointments
+										<span style="color: gainsboro">• Monitor patient workflow: Implement real-time :</span>
+										status tracking for each patient (e.g. waiting room, in consultation, consultation completed) to
+										optimize the efficiency of the application.</span
+									>
+									Technologies: Flutter, Dart, Firebase
+								</p>
+							</li>
+						</ol>
+					</section>
+
+					<section class="skill">
+						<h3 class="h3 skills-title">My skills</h3>
+
+						<ul class="skills-list content-card">
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Flutter</h5>
+									<data value="80">80%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 80%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Dart</h5>
+									<data value="90">90%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 90%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Firebase</h5>
+									<data value="70">70%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 70%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">Android Studio</h5>
+									<data value="50">80%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 80%"></div>
+								</div>
+							</li>
+
+							<li class="skills-item">
+								<div class="title-wrapper">
+									<h5 class="h5">GitHub</h5>
+									<data value="50">70%</data>
+								</div>
+
+								<div class="skill-progress-bg">
+									<div class="skill-progress-fill" style="width: 70%"></div>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<!-- Add this section after your skills section in the resume article -->
+					<section class="resume-download">
+						<h3 class="h3 download-title">Download My Resume</h3>
+
+						<div class="download-content">
+							<p>Interested in my work? Grab a copy of my resume and let's discuss how we can collaborate!</p>
+
+							<div class="download-button-container">
+								<a
+									href="https://flowcv.com/resume/s8opbs0i8r"
+									target="_blank"
+									class="download-button"
+								>
+									<span>Resume</span>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+										<polyline points="7 10 12 15 17 10"></polyline>
+										<line x1="12" y1="15" x2="12" y2="3"></line>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</section>
+				</article>
+
+				<!--
+        - #PORTFOLIO
+      -->
+
+				<article class="portfolio" data-page="portfolio">
+					<header>
+						<h2 class="h2 article-title">Portfolio</h2>
+					</header>
+
+					<section class="projects">
+						<ul class="filter-list">
+							<li class="filter-item">
+								<button class="active" data-filter-btn>All</button>
+							</li>
+
+							<!-- <li class="filter-item">
+								<button data-filter-btn>Web design</button>
+							</li> -->
+
+							<li class="filter-item">
+								<button data-filter-btn>Applications</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Web development</button>
+							</li>
+						</ul>
+
+						<div class="filter-select-box">
+							<button class="filter-select" data-select>
+								<div class="select-value" data-selecct-value>Select category</div>
+
+								<div class="select-icon">
+									<ion-icon name="chevron-down"></ion-icon>
+								</div>
+							</button>
+
+							<ul class="select-list">
+								<li class="select-item">
+									<button data-select-item>All</button>
+								</li>
+
+								<!-- <li class="select-item">
+									<button data-select-item>Web design</button>
+								</li> -->
+
+								<li class="select-item">
+									<button data-select-item>Mobile Applications</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Web development</button>
+								</li>
+							</ul>
+						</div>
+
+						<ul class="project-list">
+							<li class="project-item active" data-filter-item data-category="applications">
+								<a href="https://github.com/KottiMahdi/PatientFlow/tree/master" target="_parent">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/vc.png" alt="metaspark" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">PatientFlow</h3>
+
+									<p class="project-category">Mobile Applications <span>Flutter, Dart and Firebase</span></p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="applications">
+								<a href="https://github.com/KottiMahdi/Notes-Flutter/tree/master">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/cdf.png" alt="brawlhalla" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Notes</h3>
+
+									<p class="project-category">Mobile Applications <span>Flutter, Dart and Firebase</span></p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="web development">
+								<a href="https://github.com/KottiMahdi/contact-management-WebApplication">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/cvb.png" alt="summary" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Contact Management</h3>
+
+									<p class="project-category">
+										Web development <span>ASP.NET, C#, SQL Serveur, DevExpress, Javascript</span>
+									</p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="web development">
+								<a href="https://github.com/KottiMahdi/employee-management-web-app/tree/master">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/cfg.png" alt="arrival" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Employee Management</h3>
+
+									<p class="project-category">
+										Web development <span>ASP.NET, C#, SQL Serveur, DevExpress, Javascript</span>
+									</p>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<!--
+        - #BLOG
+      -->
+
+				<article class="blog" data-page="blog">
+					<header>
+						<h2 class="h2 article-title">Blog</h2>
+					</header>
+
+					<section class="blog-posts">
+						<ul class="blog-posts-list">
+							<li class="blog-post-item">
+								<a href="#">
+									<figure class="blog-banner-box">
+										<img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy" />
+									</figure>
+
+									<div class="blog-content">
+										<div class="blog-meta">
+											<p class="blog-category">Design</p>
+
+											<span class="dot"></span>
+
+											<time datetime="2022-02-23">Fab 23, 2022</time>
+										</div>
+
+										<h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+										<p class="blog-text">Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+									</div>
+								</a>
+							</li>
+
+							<li class="blog-post-item">
+								<a href="#">
+									<figure class="blog-banner-box">
+										<img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy" />
+									</figure>
+
+									<div class="blog-content">
+										<div class="blog-meta">
+											<p class="blog-category">Design</p>
+
+											<span class="dot"></span>
+
+											<time datetime="2022-02-23">Fab 23, 2022</time>
+										</div>
+
+										<h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+										<p class="blog-text">Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.</p>
+									</div>
+								</a>
+							</li>
+
+							<li class="blog-post-item">
+								<a href="#">
+									<figure class="blog-banner-box">
+										<img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" />
+									</figure>
+
+									<div class="blog-content">
+										<div class="blog-meta">
+											<p class="blog-category">Design</p>
+
+											<span class="dot"></span>
+
+											<time datetime="2022-02-23">Fab 23, 2022</time>
+										</div>
+
+										<h3 class="h3 blog-item-title">Design digest #80</h3>
+
+										<p class="blog-text">
+											Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis
+											suscipit.
+										</p>
+									</div>
+								</a>
+							</li>
+
+							<li class="blog-post-item">
+								<a href="#">
+									<figure class="blog-banner-box">
+										<img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy" />
+									</figure>
+
+									<div class="blog-content">
+										<div class="blog-meta">
+											<p class="blog-category">Design</p>
+
+											<span class="dot"></span>
+
+											<time datetime="2022-02-23">Fab 23, 2022</time>
+										</div>
+
+										<h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+										<p class="blog-text">
+											Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+										</p>
+									</div>
+								</a>
+							</li>
+
+							<li class="blog-post-item">
+								<a href="#">
+									<figure class="blog-banner-box">
+										<img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" />
+									</figure>
+
+									<div class="blog-content">
+										<div class="blog-meta">
+											<p class="blog-category">Design</p>
+
+											<span class="dot"></span>
+
+											<time datetime="2022-02-23">Fab 23, 2022</time>
+										</div>
+
+										<h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+										<p class="blog-text">
+											Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</a>
+							</li>
+
+							<li class="blog-post-item">
+								<a href="#">
+									<figure class="blog-banner-box">
+										<img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" />
+									</figure>
+
+									<div class="blog-content">
+										<div class="blog-meta">
+											<p class="blog-category">Design</p>
+
+											<span class="dot"></span>
+
+											<time datetime="2022-02-23">Fab 23, 2022</time>
+										</div>
+
+										<h3 class="h3 blog-item-title">Design digest #79</h3>
+
+										<p class="blog-text">Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<!--
+        - #CONTACT
+      -->
+
+				<article class="contact" data-page="contact">
+					<header>
+						<h2 class="h2 article-title">Contact</h2>
+					</header>
+
+					<section class="mapbox" data-mapbox>
+						<figure>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14575.046203976543!2d10.27182236207291!3d36.8633102937871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stn!4v1749758002797!5m2!1sfr!2stn"
+								width="400"
+								height="300"
+								loading="lazy"
+							></iframe>
+						</figure>
+					</section>
+
+					<section class="contact-form">
+						<h3 class="h3 form-title">Contact Form</h3>
+
+						<form action="https://formsubmit.co/kottimahdi22@gmail.com" method="POST" class="form" data-form>
+							<div class="input-wrapper">
+								<input
+									type="text"
+									name="fullname"
+									class="form-input"
+									placeholder="Full name"
+									required
+									data-form-input
+								/>
+
+								<input
+									type="email"
+									name="email"
+									class="form-input"
+									placeholder="Email address"
+									required
+									data-form-input
+								/>
+							</div>
+
+							<textarea
+								name="message"
+								class="form-input"
+								placeholder="Your Message"
+								required
+								data-form-input
+							></textarea>
+
+							<button class="form-btn" type="submit" data-form-btn>
+								<ion-icon name="paper-plane"></ion-icon>
+								<span>Send Message</span>
+							</button>
+						</form>
+					</section>
+				</article>
+			</div>
+		</main>
+
+		<!--
+    - custom js link
+  -->
+		<script src="./assets/js/script.js"></script>
+
+		<!--
+    - ionicon link
+  -->
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<!--
+  - ionicons script
+-->
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
